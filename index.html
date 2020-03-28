@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chore Door</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg" >
+    </div>
+    <div class="title-row">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg" alt="">
+        <p class="instructions-title">Instruções</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg" alt="">
+    </div>
+
+    <table class="instructions-row">
+        <tr>
+            <td class="instructions-number">1</td>
+            <td class="instructions-text">Atrás de uma destas portas está um Robot.</td>
+        </tr>
+        <tr>
+            <td class="instructions-number">2</td>
+            <td class="instructions-text">A tua missão é abrir as portas sem que por detrás dela apareça o Robot.</td>
+        </tr>
+        <tr>
+            <td class="instructions-number">3</td>
+            <td class="instructions-text">Se conseguires evitar que o robot apreça até ao fim das portas estarem todas abertas: GANHAS!</td>
+        </tr>
+        <tr>
+            <td class="instructions-number">4</td>
+            <td class="instructions-text">Vamos ver quantas vezes consegues fazer seguidas!</td>
+        </tr>
+
+
+    </table>
+
+    <div class="door-row">
+        <img id="door1" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+        <img id="door2" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+        <img id="door3" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+    </div>
+
+    <div id="start" class="start-row"> Boa Sorte!
+    </div>
+
+    <div class ="scores">
+        <div class="container">
+            <p>Vezes Seguidas</p>
+            <div id="currentStreak" class ="square">0</div>
+        </div>
+        <div class="container">
+            <p>Melhor Vez</p>
+            <div id="bestStreak" class="square">0</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Fernando Pereira</p>
+    </footer>
+  
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
